@@ -12,5 +12,5 @@ include_directories(SFML_INCLUDE_DIR)
 
 find_package(SFML 2.5.1 COMPONENTS system window graphics network audio)
 
-add_executable(gfs main.cpp game.cpp game.h SplashScreen.cpp SplashScreen.h MainMenu.cpp MainMenu.h)
+add_executable(gfs main.cpp Game.cpp Game.h SplashScreen.cpp SplashScreen.h MainMenu.cpp MainMenu.h VisibleGameObject.cpp VisibleGameObject.h PlayerPaddle.cpp PlayerPaddle.h)
 target_link_libraries (gfs sfml-graphics sfml-window sfml-system)

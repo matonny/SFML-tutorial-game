@@ -82,10 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/mateusz/Desktop/C++/gfs/Game.cpp">
+			<Option target="gfs"/>
+		</Unit>
+		<Unit filename="/Users/mateusz/Desktop/C++/gfs/Game.h">
+			<Option target="gfs"/>
+		</Unit>
 		<Unit filename="/Users/mateusz/Desktop/C++/gfs/MainMenu.cpp">
 			<Option target="gfs"/>
 		</Unit>
 		<Unit filename="/Users/mateusz/Desktop/C++/gfs/MainMenu.h">
+			<Option target="gfs"/>
+		</Unit>
+		<Unit filename="/Users/mateusz/Desktop/C++/gfs/PlayerPaddle.cpp">
+			<Option target="gfs"/>
+		</Unit>
+		<Unit filename="/Users/mateusz/Desktop/C++/gfs/PlayerPaddle.h">
 			<Option target="gfs"/>
 		</Unit>
 		<Unit filename="/Users/mateusz/Desktop/C++/gfs/SplashScreen.cpp">
@@ -94,10 +106,10 @@
 		<Unit filename="/Users/mateusz/Desktop/C++/gfs/SplashScreen.h">
 			<Option target="gfs"/>
 		</Unit>
-		<Unit filename="/Users/mateusz/Desktop/C++/gfs/game.cpp">
+		<Unit filename="/Users/mateusz/Desktop/C++/gfs/VisibleGameObject.cpp">
 			<Option target="gfs"/>
 		</Unit>
-		<Unit filename="/Users/mateusz/Desktop/C++/gfs/game.h">
+		<Unit filename="/Users/mateusz/Desktop/C++/gfs/VisibleGameObject.h">
 			<Option target="gfs"/>
 		</Unit>
 		<Unit filename="/Users/mateusz/Desktop/C++/gfs/main.cpp">

@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/gfs.dir/Game.cpp.o"
   "CMakeFiles/gfs.dir/MainMenu.cpp.o"
+  "CMakeFiles/gfs.dir/PlayerPaddle.cpp.o"
   "CMakeFiles/gfs.dir/SplashScreen.cpp.o"
-  "CMakeFiles/gfs.dir/game.cpp.o"
+  "CMakeFiles/gfs.dir/VisibleGameObject.cpp.o"
   "CMakeFiles/gfs.dir/main.cpp.o"
   "gfs"
   "gfs.pdb"

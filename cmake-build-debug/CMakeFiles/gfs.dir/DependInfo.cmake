@@ -4,9 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/mateusz/Desktop/C++/gfs/Game.cpp" "/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles/gfs.dir/Game.cpp.o"
   "/Users/mateusz/Desktop/C++/gfs/MainMenu.cpp" "/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles/gfs.dir/MainMenu.cpp.o"
+  "/Users/mateusz/Desktop/C++/gfs/PlayerPaddle.cpp" "/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles/gfs.dir/PlayerPaddle.cpp.o"
   "/Users/mateusz/Desktop/C++/gfs/SplashScreen.cpp" "/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles/gfs.dir/SplashScreen.cpp.o"
-  "/Users/mateusz/Desktop/C++/gfs/game.cpp" "/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles/gfs.dir/game.cpp.o"
+  "/Users/mateusz/Desktop/C++/gfs/VisibleGameObject.cpp" "/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles/gfs.dir/VisibleGameObject.cpp.o"
   "/Users/mateusz/Desktop/C++/gfs/main.cpp" "/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles/gfs.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

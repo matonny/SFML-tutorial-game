@@ -70,18 +70,18 @@ CMakeFiles/gfs.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gfs.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mateusz/Desktop/C++/gfs/main.cpp -o CMakeFiles/gfs.dir/main.cpp.s
 
-CMakeFiles/gfs.dir/game.cpp.o: CMakeFiles/gfs.dir/flags.make
-CMakeFiles/gfs.dir/game.cpp.o: ../game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gfs.dir/game.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gfs.dir/game.cpp.o -c /Users/mateusz/Desktop/C++/gfs/game.cpp
+CMakeFiles/gfs.dir/Game.cpp.o: CMakeFiles/gfs.dir/flags.make
+CMakeFiles/gfs.dir/Game.cpp.o: ../Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gfs.dir/Game.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gfs.dir/Game.cpp.o -c /Users/mateusz/Desktop/C++/gfs/Game.cpp
 
-CMakeFiles/gfs.dir/game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gfs.dir/game.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mateusz/Desktop/C++/gfs/game.cpp > CMakeFiles/gfs.dir/game.cpp.i
+CMakeFiles/gfs.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gfs.dir/Game.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mateusz/Desktop/C++/gfs/Game.cpp > CMakeFiles/gfs.dir/Game.cpp.i
 
-CMakeFiles/gfs.dir/game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gfs.dir/game.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mateusz/Desktop/C++/gfs/game.cpp -o CMakeFiles/gfs.dir/game.cpp.s
+CMakeFiles/gfs.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gfs.dir/Game.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mateusz/Desktop/C++/gfs/Game.cpp -o CMakeFiles/gfs.dir/Game.cpp.s
 
 CMakeFiles/gfs.dir/SplashScreen.cpp.o: CMakeFiles/gfs.dir/flags.make
 CMakeFiles/gfs.dir/SplashScreen.cpp.o: ../SplashScreen.cpp
@@ -109,26 +109,56 @@ CMakeFiles/gfs.dir/MainMenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gfs.dir/MainMenu.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mateusz/Desktop/C++/gfs/MainMenu.cpp -o CMakeFiles/gfs.dir/MainMenu.cpp.s
 
+CMakeFiles/gfs.dir/VisibleGameObject.cpp.o: CMakeFiles/gfs.dir/flags.make
+CMakeFiles/gfs.dir/VisibleGameObject.cpp.o: ../VisibleGameObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/gfs.dir/VisibleGameObject.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gfs.dir/VisibleGameObject.cpp.o -c /Users/mateusz/Desktop/C++/gfs/VisibleGameObject.cpp
+
+CMakeFiles/gfs.dir/VisibleGameObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gfs.dir/VisibleGameObject.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mateusz/Desktop/C++/gfs/VisibleGameObject.cpp > CMakeFiles/gfs.dir/VisibleGameObject.cpp.i
+
+CMakeFiles/gfs.dir/VisibleGameObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gfs.dir/VisibleGameObject.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mateusz/Desktop/C++/gfs/VisibleGameObject.cpp -o CMakeFiles/gfs.dir/VisibleGameObject.cpp.s
+
+CMakeFiles/gfs.dir/PlayerPaddle.cpp.o: CMakeFiles/gfs.dir/flags.make
+CMakeFiles/gfs.dir/PlayerPaddle.cpp.o: ../PlayerPaddle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/gfs.dir/PlayerPaddle.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gfs.dir/PlayerPaddle.cpp.o -c /Users/mateusz/Desktop/C++/gfs/PlayerPaddle.cpp
+
+CMakeFiles/gfs.dir/PlayerPaddle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gfs.dir/PlayerPaddle.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mateusz/Desktop/C++/gfs/PlayerPaddle.cpp > CMakeFiles/gfs.dir/PlayerPaddle.cpp.i
+
+CMakeFiles/gfs.dir/PlayerPaddle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gfs.dir/PlayerPaddle.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mateusz/Desktop/C++/gfs/PlayerPaddle.cpp -o CMakeFiles/gfs.dir/PlayerPaddle.cpp.s
+
 # Object files for target gfs
 gfs_OBJECTS = \
 "CMakeFiles/gfs.dir/main.cpp.o" \
-"CMakeFiles/gfs.dir/game.cpp.o" \
+"CMakeFiles/gfs.dir/Game.cpp.o" \
 "CMakeFiles/gfs.dir/SplashScreen.cpp.o" \
-"CMakeFiles/gfs.dir/MainMenu.cpp.o"
+"CMakeFiles/gfs.dir/MainMenu.cpp.o" \
+"CMakeFiles/gfs.dir/VisibleGameObject.cpp.o" \
+"CMakeFiles/gfs.dir/PlayerPaddle.cpp.o"
 
 # External object files for target gfs
 gfs_EXTERNAL_OBJECTS =
 
 gfs: CMakeFiles/gfs.dir/main.cpp.o
-gfs: CMakeFiles/gfs.dir/game.cpp.o
+gfs: CMakeFiles/gfs.dir/Game.cpp.o
 gfs: CMakeFiles/gfs.dir/SplashScreen.cpp.o
 gfs: CMakeFiles/gfs.dir/MainMenu.cpp.o
+gfs: CMakeFiles/gfs.dir/VisibleGameObject.cpp.o
+gfs: CMakeFiles/gfs.dir/PlayerPaddle.cpp.o
 gfs: CMakeFiles/gfs.dir/build.make
 gfs: /usr/local/lib/libsfml-graphics.2.5.1.dylib
 gfs: /usr/local/lib/libsfml-window.2.5.1.dylib
 gfs: /usr/local/lib/libsfml-system.2.5.1.dylib
 gfs: CMakeFiles/gfs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable gfs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable gfs"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gfs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -123,6 +123,33 @@ gfs/fast:
 	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/build
 .PHONY : gfs/fast
 
+Game.o: Game.cpp.o
+
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
 MainMenu.o: MainMenu.cpp.o
 
 .PHONY : MainMenu.o
@@ -149,6 +176,33 @@ MainMenu.s: MainMenu.cpp.s
 MainMenu.cpp.s:
 	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/MainMenu.cpp.s
 .PHONY : MainMenu.cpp.s
+
+PlayerPaddle.o: PlayerPaddle.cpp.o
+
+.PHONY : PlayerPaddle.o
+
+# target to build an object file
+PlayerPaddle.cpp.o:
+	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/PlayerPaddle.cpp.o
+.PHONY : PlayerPaddle.cpp.o
+
+PlayerPaddle.i: PlayerPaddle.cpp.i
+
+.PHONY : PlayerPaddle.i
+
+# target to preprocess a source file
+PlayerPaddle.cpp.i:
+	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/PlayerPaddle.cpp.i
+.PHONY : PlayerPaddle.cpp.i
+
+PlayerPaddle.s: PlayerPaddle.cpp.s
+
+.PHONY : PlayerPaddle.s
+
+# target to generate assembly for a file
+PlayerPaddle.cpp.s:
+	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/PlayerPaddle.cpp.s
+.PHONY : PlayerPaddle.cpp.s
 
 SplashScreen.o: SplashScreen.cpp.o
 
@@ -177,32 +231,32 @@ SplashScreen.cpp.s:
 	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/SplashScreen.cpp.s
 .PHONY : SplashScreen.cpp.s
 
-game.o: game.cpp.o
+VisibleGameObject.o: VisibleGameObject.cpp.o
 
-.PHONY : game.o
+.PHONY : VisibleGameObject.o
 
 # target to build an object file
-game.cpp.o:
-	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/game.cpp.o
-.PHONY : game.cpp.o
+VisibleGameObject.cpp.o:
+	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/VisibleGameObject.cpp.o
+.PHONY : VisibleGameObject.cpp.o
 
-game.i: game.cpp.i
+VisibleGameObject.i: VisibleGameObject.cpp.i
 
-.PHONY : game.i
+.PHONY : VisibleGameObject.i
 
 # target to preprocess a source file
-game.cpp.i:
-	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/game.cpp.i
-.PHONY : game.cpp.i
+VisibleGameObject.cpp.i:
+	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/VisibleGameObject.cpp.i
+.PHONY : VisibleGameObject.cpp.i
 
-game.s: game.cpp.s
+VisibleGameObject.s: VisibleGameObject.cpp.s
 
-.PHONY : game.s
+.PHONY : VisibleGameObject.s
 
 # target to generate assembly for a file
-game.cpp.s:
-	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/game.cpp.s
-.PHONY : game.cpp.s
+VisibleGameObject.cpp.s:
+	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/VisibleGameObject.cpp.s
+.PHONY : VisibleGameObject.cpp.s
 
 main.o: main.cpp.o
 
@@ -240,15 +294,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... gfs"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
 	@echo "... MainMenu.o"
 	@echo "... MainMenu.i"
 	@echo "... MainMenu.s"
+	@echo "... PlayerPaddle.o"
+	@echo "... PlayerPaddle.i"
+	@echo "... PlayerPaddle.s"
 	@echo "... SplashScreen.o"
 	@echo "... SplashScreen.i"
 	@echo "... SplashScreen.s"
-	@echo "... game.o"
-	@echo "... game.i"
-	@echo "... game.s"
+	@echo "... VisibleGameObject.o"
+	@echo "... VisibleGameObject.i"
+	@echo "... VisibleGameObject.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
