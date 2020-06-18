@@ -14,6 +14,7 @@ public:
     static sf::RenderWindow& GetWindow();
     const static int SCREEN_WIDTH = 1024;
     const static int SCREEN_HEIGHT = 768;
+    static GameObjectManager _gameObjectManager;
 
 
 private:
@@ -30,6 +31,6 @@ private:
 
     static GameState _gameState;
     static sf::RenderWindow _mainWindow;
-    static GameObjectManager _gameObjectManager;
+
     static std::map<sf::Keyboard::Key, bool> _keyMap;
 };

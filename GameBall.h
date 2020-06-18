@@ -12,6 +12,6 @@ public:
     void Update(float elapsedTime);
 
 private:
-    sf::Vector2<float> velocity{400.0,20.0};
+    sf::Vector2<float> velocity{400.0,100.0};
     sf::Vector2<int> initialPosition{15, 15};
 };

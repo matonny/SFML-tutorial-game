@@ -63,7 +63,7 @@ void PlayerPaddle::Update(float elapsedTime)
             case none:
                 if(!close_enough(_velocity, 0.0f))
                 {
-                    _velocity -= std::copysign(acceleration, _velocity) * elapsedTime;
+                    _velocity -= std::copysign(3*acceleration, _velocity) * elapsedTime;
                     std::cout << _velocity << " " << elapsedTime << std::endl;
                 }
                 break;
@@ -81,7 +81,7 @@ void PlayerPaddle::Update(float elapsedTime)
 
     if(pos.x < GetSprite().getGlobalBounds().width/2 || pos.x >(Game::SCREEN_WIDTH - GetSprite().getGlobalBounds().width/2))
     {
-        _velocity = -_velocity;
+        _velocity = 0.99f*-_velocity;
     }
 
     GetSprite().move(_velocity * elapsedTime, 0);

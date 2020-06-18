@@ -18,8 +18,8 @@ public:
 
 private:
     float _velocity = 0;
-    const float acceleration = 400.0f;
-    const float _maxVelocity = 500.0f;
+    const float acceleration = 800.0f;
+    const float _maxVelocity = 900.0f;
 
     enum direction{
         left,

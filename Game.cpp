@@ -11,7 +11,7 @@ void Game::Start(void)
         return;
     }
     _mainWindow.create(sf::VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT, 32), "Pang!");
-    _mainWindow.setFramerateLimit(1.0f/60.0f);
+    _mainWindow.setFramerateLimit(1.0f / 60.0f);
     PlayerPaddle *player1 = new PlayerPaddle();
     player1->SetPosition((1024 / 2) - 45, 700);
 
@@ -46,7 +46,7 @@ bool Game::IsExiting()
 
 void Game::GameLoop()
 {
-    while(true)
+    while (true)
     {
         sf::Event currentEvent;
         while (_mainWindow.pollEvent(currentEvent))
@@ -59,35 +59,37 @@ void Game::GameLoop()
                 _keyMap.erase(currentEvent.key.code);
             }
         }
-            switch (_gameState)
+        switch (_gameState)
+        {
+            case Game::ShowingMenu:
             {
-                case Game::ShowingMenu:
-                {
-                    ShowMenu();
-                    break;
-                }
-                case Game::ShowingSplash:
-                {
-                    ShowSplashScreen();
-                    break;
-                }
-                case Game::Playing:
-                {
-
-                    _mainWindow.clear(sf::Color(0, 0, 0));
-
-                    _gameObjectManager.UpdateAll();
-                    _gameObjectManager.DrawAll(_mainWindow);
-                    _mainWindow.display();
-
-                    if (currentEvent.type == sf::Event::Closed)
-                    {
-                        _gameState = Game::Exiting;
-                    }
-                    break;
-                }
-
+                ShowMenu();
+                break;
             }
+            case Game::ShowingSplash:
+            {
+                ShowSplashScreen();
+                break;
+            }
+            case Game::Playing:
+            {
+
+                _mainWindow.clear(sf::Color(0, 0, 0));
+
+                _gameObjectManager.UpdateAll();
+                _gameObjectManager.DrawAll(_mainWindow);
+                _mainWindow.display();
+
+                if (currentEvent.type == sf::Event::Closed)
+                {
+                    _gameState = Game::Exiting;
+                }
+                break;
+            }
+            case Game::Exiting :
+            case Game::Paused:
+                exit(0);
+        }
     }
 }
 
