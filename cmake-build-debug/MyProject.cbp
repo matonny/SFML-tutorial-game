@@ -88,6 +88,18 @@
 		<Unit filename="/Users/mateusz/Desktop/C++/gfs/Game.h">
 			<Option target="gfs"/>
 		</Unit>
+		<Unit filename="/Users/mateusz/Desktop/C++/gfs/GameBall.cpp">
+			<Option target="gfs"/>
+		</Unit>
+		<Unit filename="/Users/mateusz/Desktop/C++/gfs/GameBall.h">
+			<Option target="gfs"/>
+		</Unit>
+		<Unit filename="/Users/mateusz/Desktop/C++/gfs/GameObjectManager.cpp">
+			<Option target="gfs"/>
+		</Unit>
+		<Unit filename="/Users/mateusz/Desktop/C++/gfs/GameObjectManager.h">
+			<Option target="gfs"/>
+		</Unit>
 		<Unit filename="/Users/mateusz/Desktop/C++/gfs/MainMenu.cpp">
 			<Option target="gfs"/>
 		</Unit>

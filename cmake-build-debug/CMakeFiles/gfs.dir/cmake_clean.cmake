@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gfs.dir/Game.cpp.o"
+  "CMakeFiles/gfs.dir/GameBall.cpp.o"
+  "CMakeFiles/gfs.dir/GameObjectManager.cpp.o"
   "CMakeFiles/gfs.dir/MainMenu.cpp.o"
   "CMakeFiles/gfs.dir/PlayerPaddle.cpp.o"
   "CMakeFiles/gfs.dir/SplashScreen.cpp.o"

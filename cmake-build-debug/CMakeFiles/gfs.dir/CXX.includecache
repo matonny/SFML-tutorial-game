@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/mateusz/Desktop/C++/gfs/Game.cpp
-Game.h
-/Users/mateusz/Desktop/C++/gfs/Game.h
-SplashScreen.h
-/Users/mateusz/Desktop/C++/gfs/SplashScreen.h
-MainMenu.h
-/Users/mateusz/Desktop/C++/gfs/MainMenu.h
-
 /Users/mateusz/Desktop/C++/gfs/Game.h
 SFML/Window.hpp
 /Users/mateusz/Desktop/C++/gfs/SFML/Window.hpp
@@ -21,24 +13,28 @@ SFML/Graphics.hpp
 /Users/mateusz/Desktop/C++/gfs/SFML/Graphics.hpp
 PlayerPaddle.h
 /Users/mateusz/Desktop/C++/gfs/PlayerPaddle.h
+GameObjectManager.h
+/Users/mateusz/Desktop/C++/gfs/GameObjectManager.h
 
-/Users/mateusz/Desktop/C++/gfs/MainMenu.h
-SFML/Window.hpp
-/Users/mateusz/Desktop/C++/gfs/SFML/Window.hpp
-SFML/Graphics.hpp
-/Users/mateusz/Desktop/C++/gfs/SFML/Graphics.hpp
-list
+/Users/mateusz/Desktop/C++/gfs/GameObjectManager.h
+VisibleGameObject.h
+/Users/mateusz/Desktop/C++/gfs/VisibleGameObject.h
+
+/Users/mateusz/Desktop/C++/gfs/PlayerPaddle.cpp
+iostream
+-
+PlayerPaddle.h
+/Users/mateusz/Desktop/C++/gfs/PlayerPaddle.h
+Game.h
+/Users/mateusz/Desktop/C++/gfs/Game.h
+cmath
+-
+cfloat
 -
 
 /Users/mateusz/Desktop/C++/gfs/PlayerPaddle.h
 VisibleGameObject.h
 /Users/mateusz/Desktop/C++/gfs/VisibleGameObject.h
-
-/Users/mateusz/Desktop/C++/gfs/SplashScreen.h
-SFML/Window.hpp
-/Users/mateusz/Desktop/C++/gfs/SFML/Window.hpp
-SFML/Graphics.hpp
-/Users/mateusz/Desktop/C++/gfs/SFML/Graphics.hpp
 
 /Users/mateusz/Desktop/C++/gfs/VisibleGameObject.h
 string

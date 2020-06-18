@@ -150,6 +150,60 @@ Game.cpp.s:
 	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/Game.cpp.s
 .PHONY : Game.cpp.s
 
+GameBall.o: GameBall.cpp.o
+
+.PHONY : GameBall.o
+
+# target to build an object file
+GameBall.cpp.o:
+	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/GameBall.cpp.o
+.PHONY : GameBall.cpp.o
+
+GameBall.i: GameBall.cpp.i
+
+.PHONY : GameBall.i
+
+# target to preprocess a source file
+GameBall.cpp.i:
+	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/GameBall.cpp.i
+.PHONY : GameBall.cpp.i
+
+GameBall.s: GameBall.cpp.s
+
+.PHONY : GameBall.s
+
+# target to generate assembly for a file
+GameBall.cpp.s:
+	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/GameBall.cpp.s
+.PHONY : GameBall.cpp.s
+
+GameObjectManager.o: GameObjectManager.cpp.o
+
+.PHONY : GameObjectManager.o
+
+# target to build an object file
+GameObjectManager.cpp.o:
+	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/GameObjectManager.cpp.o
+.PHONY : GameObjectManager.cpp.o
+
+GameObjectManager.i: GameObjectManager.cpp.i
+
+.PHONY : GameObjectManager.i
+
+# target to preprocess a source file
+GameObjectManager.cpp.i:
+	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/GameObjectManager.cpp.i
+.PHONY : GameObjectManager.cpp.i
+
+GameObjectManager.s: GameObjectManager.cpp.s
+
+.PHONY : GameObjectManager.s
+
+# target to generate assembly for a file
+GameObjectManager.cpp.s:
+	$(MAKE) -f CMakeFiles/gfs.dir/build.make CMakeFiles/gfs.dir/GameObjectManager.cpp.s
+.PHONY : GameObjectManager.cpp.s
+
 MainMenu.o: MainMenu.cpp.o
 
 .PHONY : MainMenu.o
@@ -297,6 +351,12 @@ help:
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
+	@echo "... GameBall.o"
+	@echo "... GameBall.i"
+	@echo "... GameBall.s"
+	@echo "... GameObjectManager.o"
+	@echo "... GameObjectManager.i"
+	@echo "... GameObjectManager.s"
 	@echo "... MainMenu.o"
 	@echo "... MainMenu.i"
 	@echo "... MainMenu.s"

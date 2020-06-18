@@ -1,10 +1,8 @@
-//
-// Created by Mateusz Wygonny on 14/06/2020.
-//
-
+#include <iostream>
 #include "Game.h"
 #include "SplashScreen.h"
 #include "MainMenu.h"
+#include "GameBall.h"
 
 void Game::Start(void)
 {
@@ -12,10 +10,17 @@ void Game::Start(void)
     {
         return;
     }
-    _mainWindow.create(sf::VideoMode(1024, 768, 32), "Pang!");
+    _mainWindow.create(sf::VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT, 32), "Pang!");
 
-    _player1.Load("images/paddle.png");
-    _player1.SetPosition(1024 / 2 - 45, 700);
+    PlayerPaddle *player1 = new PlayerPaddle();
+    player1->SetPosition((1024 / 2) - 45, 700);
+
+    GameBall *ball = new GameBall();
+    ball->SetPosition((SCREEN_WIDTH / 2), (SCREEN_HEIGHT / 2) - 15);
+
+    _gameObjectManager.Add("Paddle1", player1);
+    _gameObjectManager.Add("Ball", ball);
+
 
     _gameState = Game::ShowingSplash;
 
@@ -41,35 +46,48 @@ bool Game::IsExiting()
 
 void Game::GameLoop()
 {
-    sf::Event currentEvent;
-    while (_mainWindow.pollEvent(currentEvent))
+    while(true)
     {
-        switch (_gameState)
+        sf::Event currentEvent;
+        while (_mainWindow.pollEvent(currentEvent))
         {
-            case Game::ShowingMenu:
+            if (currentEvent.type == sf::Event::KeyPressed)
             {
-                ShowMenu();
-                break;
-            }
-            case Game::ShowingSplash:
+                _keyMap[currentEvent.key.code] = true;
+            } else if (currentEvent.type == sf::Event::KeyReleased)
             {
-                ShowSplashScreen();
-                break;
+                _keyMap.erase(currentEvent.key.code);
             }
-            case Game::Playing:
-            {
-                _mainWindow.clear(sf::Color(255, 0, 0));
-                _player1.Draw(_mainWindow);
-                _mainWindow.display();
-
-                if (currentEvent.type == sf::Event::Closed)
-                {
-                    _gameState = Game::Exiting;
-                }
-                break;
-            }
-
         }
+            switch (_gameState)
+            {
+                case Game::ShowingMenu:
+                {
+                    ShowMenu();
+                    break;
+                }
+                case Game::ShowingSplash:
+                {
+                    ShowSplashScreen();
+                    break;
+                }
+                case Game::Playing:
+                {
+
+                    _mainWindow.clear(sf::Color(0, 0, 0));
+
+                    _gameObjectManager.UpdateAll();
+                    _gameObjectManager.DrawAll(_mainWindow);
+                    _mainWindow.display();
+
+                    if (currentEvent.type == sf::Event::Closed)
+                    {
+                        _gameState = Game::Exiting;
+                    }
+                    break;
+                }
+
+            }
     }
 }
 
@@ -91,10 +109,17 @@ void Game::ShowMenu()
             break;
         case MainMenu::Play:
             _gameState = Game::Playing;
+            _gameObjectManager._gameClock.restart();
             break;
     }
 }
 
+std::map<sf::Keyboard::Key, bool> Game::getInput()
+{
+    return _keyMap;
+}
+
 Game::GameState Game::_gameState = Uninitialized;
 sf::RenderWindow Game::_mainWindow;
-PlayerPaddle Game::_player1;
+GameObjectManager Game::_gameObjectManager;
+std::map<sf::Keyboard::Key, bool> Game::_keyMap;

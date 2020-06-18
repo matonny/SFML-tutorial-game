@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/mateusz/Desktop/C++/gfs/Game.cpp" "/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles/gfs.dir/Game.cpp.o"
+  "/Users/mateusz/Desktop/C++/gfs/GameBall.cpp" "/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles/gfs.dir/GameBall.cpp.o"
+  "/Users/mateusz/Desktop/C++/gfs/GameObjectManager.cpp" "/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles/gfs.dir/GameObjectManager.cpp.o"
   "/Users/mateusz/Desktop/C++/gfs/MainMenu.cpp" "/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles/gfs.dir/MainMenu.cpp.o"
   "/Users/mateusz/Desktop/C++/gfs/PlayerPaddle.cpp" "/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles/gfs.dir/PlayerPaddle.cpp.o"
   "/Users/mateusz/Desktop/C++/gfs/SplashScreen.cpp" "/Users/mateusz/Desktop/C++/gfs/cmake-build-debug/CMakeFiles/gfs.dir/SplashScreen.cpp.o"
