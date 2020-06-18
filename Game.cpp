@@ -11,7 +11,7 @@ void Game::Start(void)
         return;
     }
     _mainWindow.create(sf::VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT, 32), "Pang!");
-
+    _mainWindow.setFramerateLimit(1.0f/60.0f);
     PlayerPaddle *player1 = new PlayerPaddle();
     player1->SetPosition((1024 / 2) - 45, 700);
 
@@ -121,5 +121,6 @@ std::map<sf::Keyboard::Key, bool> Game::getInput()
 
 Game::GameState Game::_gameState = Uninitialized;
 sf::RenderWindow Game::_mainWindow;
+
 GameObjectManager Game::_gameObjectManager;
 std::map<sf::Keyboard::Key, bool> Game::_keyMap;

@@ -16,21 +16,23 @@ PlayerPaddle.h
 GameObjectManager.h
 /Users/mateusz/Desktop/C++/gfs/GameObjectManager.h
 
+/Users/mateusz/Desktop/C++/gfs/GameBall.cpp
+GameBall.h
+/Users/mateusz/Desktop/C++/gfs/GameBall.h
+Game.h
+/Users/mateusz/Desktop/C++/gfs/Game.h
+
+/Users/mateusz/Desktop/C++/gfs/GameBall.h
+VisibleGameObject.h
+/Users/mateusz/Desktop/C++/gfs/VisibleGameObject.h
+SFML/Window.hpp
+/Users/mateusz/Desktop/C++/gfs/SFML/Window.hpp
+SFML/Graphics.hpp
+/Users/mateusz/Desktop/C++/gfs/SFML/Graphics.hpp
+
 /Users/mateusz/Desktop/C++/gfs/GameObjectManager.h
 VisibleGameObject.h
 /Users/mateusz/Desktop/C++/gfs/VisibleGameObject.h
-
-/Users/mateusz/Desktop/C++/gfs/PlayerPaddle.cpp
-iostream
--
-PlayerPaddle.h
-/Users/mateusz/Desktop/C++/gfs/PlayerPaddle.h
-Game.h
-/Users/mateusz/Desktop/C++/gfs/Game.h
-cmath
--
-cfloat
--
 
 /Users/mateusz/Desktop/C++/gfs/PlayerPaddle.h
 VisibleGameObject.h

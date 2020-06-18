@@ -85,8 +85,11 @@ CMakeFiles/gfs.dir/Game.cpp.o
  /usr/local/include/SFML/Window/WindowHandle.hpp
  /usr/local/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/gfs.dir/GameBall.cpp.o
+ /Users/mateusz/Desktop/C++/gfs/Game.h
  /Users/mateusz/Desktop/C++/gfs/GameBall.cpp
  /Users/mateusz/Desktop/C++/gfs/GameBall.h
+ /Users/mateusz/Desktop/C++/gfs/GameObjectManager.h
+ /Users/mateusz/Desktop/C++/gfs/PlayerPaddle.h
  /Users/mateusz/Desktop/C++/gfs/VisibleGameObject.h
  /usr/local/include/SFML/Config.hpp
  /usr/local/include/SFML/Graphics.hpp

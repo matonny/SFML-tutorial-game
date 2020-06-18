@@ -15,6 +15,7 @@ public:
     const static int SCREEN_WIDTH = 1024;
     const static int SCREEN_HEIGHT = 768;
 
+
 private:
     static bool IsExiting();
     static void GameLoop();
@@ -22,7 +23,7 @@ private:
     static void ShowSplashScreen();
     static void ShowMenu();
 
-
+    const float FPS = 60.0f;
 
     enum GameState { Uninitialized, ShowingSplash, Paused,
         ShowingMenu, Playing, Exiting };
